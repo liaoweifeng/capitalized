@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Ê××ÖÄ¸´óÐ´</title>
+        <body></body>
+            <script> 
+            var str="hello world,hello you"
+            var string=[]
+            for (i=0;i<30;i++){
+                string[i]=str[i]
+            }
+            function change(string){
+                for (i=0;i<20;i++){
+                    if(string[i]==" "||string[i]==","){
+                        string[i+1]=string[i+1].charCodeAt()-32;
+                        string[i+1]=String.fromCharCode(string[i+1])
+                        }
+                    if(i==0){
+                        string[i]=string[i].charCodeAt()-32;
+                        string[i]=String.fromCharCode(string[i])
+
+                    }
+                  
+                        var finish=string.join("")
+                    }
+                    console.log(finish)
+            
+        }
+        change(string)
+         
+             
+            </script>
+        
+    
+         </head>
+</html>
